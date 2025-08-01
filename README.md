@@ -12,7 +12,7 @@ For many comprehensive reviews and benchmark see review by Jeff Geerling: https:
 | Orange Pi | [3b](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-3B.html) | RK3566 | 2/4/8 GB | eMMC socket/microSD | | | 51/___/___ GB |
 | Orange Pi | [4b](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/orange-pi-4B.html) | RK3399 | 2/8/16 GB | eMMC/microSD | | | |
 | Banana Pi | [M5](https://wiki.banana-pi.org/Banana_Pi_BPI-M5) | S905X3 | 4GB | 16GB eMMC/microSD | Not available | | |
-| Radxa | [ROCK 5C](https://radxa.com/products/rock5/5c/) | RK3588S2 | 2/8/16 GB | SDcard/eMMC socket | | [by Jeff Geerling](https://github.com/geerlingguy/sbc-reviews/issues/41) | 89/102/136 EUR |
+| Radxa | [ROCK 5C](https://radxa.com/products/rock5/5c/) | RK3588S2 | 2/8/16 GB | SDcard/eMMC socket | NPU | [by Jeff Geerling](https://github.com/geerlingguy/sbc-reviews/issues/41) | 89/102/136 EUR |
 | Radxa | [ROCK 5C Lite](https://radxa.com/products/rock5/5c/) | RK3582 | 2/8/16 GB | SDcard/eMMC socket | | | 85/___/___ EUR |
 | Raspbery Pi | [5](https://www.raspberrypi.com/products/raspberry-pi-5/) | BCM2712 | 4/8 GB | microSD | | [by Jeff Geerling](https://github.com/geerlingguy/sbc-reviews/issues/21) | ___/80 EUR |
 | Radxa X4 | [X4](https://radxa.com/products/x/x4/) | N100 | 4/8/12/16 GB | m.2(42mm) | | [by Jeff Geerling](https://www.jeffgeerling.com/blog/2024/radxa-x4-sbc-unites-intel-n100-and-raspberry-pi-rp2040) | 70/93/114/130 EUR |
@@ -22,7 +22,7 @@ For many comprehensive reviews and benchmark see review by Jeff Geerling: https:
 
 | Name | Cores | RAM type | Freq | GPU | Notes |
 | --- | --- | --- | --- | --- | --- |
-| [Rockchip](https://en.wikipedia.org/wiki/List_of_Rockchip_products) [RK3588](https://www.rockchips.net/product/rk3588/) | 4x A76, 4x A55 |  |  | Mali-G610 MC4 | 3x NPU |
+| [Rockchip](https://en.wikipedia.org/wiki/List_of_Rockchip_products) [RK3588](https://www.rockchips.net/product/rk3588/) (S, S2)[^2] | 4x A76, 4x A55 |  |  | Mali-G610 MC4 | 3x core NPU[^1] [^3] |
 | Rockchip [RK3399](https://opensource.rock-chips.com/wiki_RK3399) |2x A72, 4x A53 | DDR3/4 LPDDR3/4 | | Mali-T864 |  |
 | Rockchip [RK3582](https://www.cnx-software.com/2024/03/25/rockchip-rk3582-is-a-cost-down-version-of-rk3588s-with-two-cortex-a76-cores-four-cortex-a55-cores-no-gpu/) | 2x A76, 4x A55 | LPDDR4/LPDDR4x/LPDDR5 | | Mali-G610 MC4 (no 3D) | |
 | Broadcom [BCM2710A1](https://datasheets.raspberrypi.com/rpizero2/raspberry-pi-zero-2-w-product-brief.pdf) | 4x A53 | LPDDR2 | | VideoCore IV |  |
@@ -31,7 +31,13 @@ For many comprehensive reviews and benchmark see review by Jeff Geerling: https:
 | Allwinner [H6](https://linux-sunxi.org/H6) | 4x A53 | DDR2/3 LPDDR3/4 | | Mali-T720 MP2 | |
 | Allwinner [A64](https://www.cnx-software.com/2015/11/10/allwinner-a64-datasheet-and-user-manual-released/) | 4x A53 | DDR2/3 LPDDR2/3 | | Mali-400 MP2 | Outdated |
 | Intel [N100](https://www.intel.com/content/www/us/en/products/sku/231803/intel-processor-n100-6m-cache-up-to-3-40-ghz/specifications.html) | 4x Alder Lake-N | LPDDR4/5 | 3.4 GHz |  | x86-64bit |
+| NXP [i.MX 8M](https://www.nxp.com/products/i.MX8M) | 4x A53, 1x M4F| DDR3/4 LPDDR4 | | Vivante GC7000-Lite | |
 | Amlogic [S905X3](https://www.cnx-software.com/2019/04/12/amlogic-s905x3-specifications-block-diagram/) | 4x A55 | DDR3/4 LPDDR3/4 | | Mali G31 MP2  | |
+Notes:
+[^1]: https://clehaxze.tw/gemlog/2024/02-14-benchmarking-rk3588-npu-matrix-multiplcation-performance-ep2.gmi
+[^2]: S and S2 variants are just binned to a lower spec: https://www.rockchips.net/rk3588-vs-rk3588s-in-depth-technical-comparison/
+[^3]: https://clehaxze.tw/gemlog/2023/07-13-rockchip-npus-and-deploying-scikit-learn-models-on-them.gmi
+
 
 
 # Cores
