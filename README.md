@@ -6,7 +6,7 @@ For many comprehensive reviews and benchmark see review by Jeff Geerling: https:
 # SBCs
 | Make | Model | Soc | RAM size | Storage | Notes | Review | Price (per RAM version) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Raspberry Pi | [Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) | BCM2710A1 | 512 MB | SDcard | | [by Jeff Geerling](https://github.com/geerlingguy/sbc-reviews/issues/43) | 24 EUR |
+| Raspberry Pi | [Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) | BCM2710A1 | 512 MB | microSD | | [by Jeff Geerling](https://github.com/geerlingguy/sbc-reviews/issues/43) | 24 EUR |
 | Orange Pi | [Zero 2W](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-Zero-2W.html) | H618 | 1/2/4 GB | microSD | | [by Jeff Geerling](https://www.jeffgeerling.com/blog/2021/look-inside-raspberry-pi-zero-2-w-and-rp3a0-au) | 32/45/. Eur |
 | Orange Pi | [3 LTS](http://www.orangepi.org/orangepiwiki/index.php/Orange_Pi_3_LTS) | H6 | 2 GB | eMMC 8GB/microSD | | | 61 EUR |
 | Orange Pi | [3b](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-3B.html) | RK3566 | 2/4/8 GB | eMMC socket/microSD | | | 51/___/___ GB |
