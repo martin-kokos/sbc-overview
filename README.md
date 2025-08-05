@@ -61,6 +61,7 @@ For more powerful computer systems look at the Intel N100, N150, N200 line
 
 # Nvidia boards
 At this moment, I do not recommend these boards for commercial use, due to their poor bringup software (Installation wizard), poor documentation, poor support on forums and poor supplly chain security.
+A good overview is on [Wikipedia](https://en.wikipedia.org/wiki/Nvidia_Jetson#Performance)
 
 ## Nano
 The starter board everyone usually know is the _Jetson Nano_. _Jetson Orin Nano_ and _Jetson Orin Nano Super_ are its successors. ~15W TDP
