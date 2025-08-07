@@ -63,8 +63,19 @@ For more powerful computer systems look at the Intel N100, N150, N200 line
 At this moment, I do not recommend these boards for commercial use, due to their poor bringup software (Installation wizard), poor documentation, poor support on forums and poor supplly chain security.
 A good overview is on [Wikipedia](https://en.wikipedia.org/wiki/Nvidia_Jetson#Performance)
 
+Generations:
+TK1, TX1, Nano = long obsolete [Maxwell](https://en.wikipedia.org/wiki/Maxwell_(microarchitecture)) (2014, 2015)
+TX2 = obsolete [Pascal](https://en.wikipedia.org/wiki/Pascal_(microarchitecture)) (2016)
+Xavier = [Volta microachitecture](https://en.wikipedia.org/wiki/Volta_(microarchitecture)) (2017)
+Orin = [Ampere microachitecture](https://en.wikipedia.org/wiki/Ampere_(microarchitecture)) (2020)
+Thor = [Blackwell microachitecture](https://en.wikipedia.org/wiki/Blackwell_(microarchitecture)) (2024)
+
+Form factors:
+Nano, NX = SoDIMM modules[^8] usable with the Dev-Kit board
+AGX = SoM with 699-pin Moles connector[^9]
+
 ## Nano
-The starter board everyone usually know is the _Jetson Nano_. _Jetson Orin Nano_ and _Jetson Orin Nano Super_ are its successors. ~15W TDP
+The starter board everyone usually knows is the _Jetson Nano_ (now obsolete), and its newer variants _Orin Nano_ and _Orin Nano Super_. ~15W TDP
 The compute module (Tegra SoC and friends) is in a form of a DIMM module that's usually on a motherboard ("devkit") with all the peripherals broken out.
 Orin Nano and Orin NX and Xavier NX are mostly compatible.[^4]
 The versions with less memory may also have less CUDA and tensor cores and slower memory.[^5]
@@ -76,13 +87,15 @@ The USBC port acts as a Ethernet-over-USB port and works on 192.168.55.0/24 addr
 ## Xavier
 Xavier NX (20W TDP) and higher spec Xavier AGX (30W TDP).[^6]
 
-
 ## AGX
 Higher power boards such as Jetson AGX Xavier have a different form factor from the Nanos.
 To compare modules, view this [overview](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-series/) or this [disgusting modal](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-agx-xavier/#agx-xavier-series-compare).
 
 ## Thor
 Upcoming (2025) series. Marketing says 2000 TFLOPS \* 4bit \*\* sparse, so divide it by a factor of two and then another factor of two, 75-130W TDP.[^7]
+
+# Hire me
+For consultations, schedule a call via _Calendly_ link in my profile.
 
 
 References:
@@ -93,3 +106,5 @@ References:
 [^5]: https://www.seeedstudio.com/blog/nvidia-jetson-comparison-nano-tx2-nx-xavier-nx-agx-orin/
 [^6]: https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-series/
 [^7]: https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/
+[^8]: https://developer.download.nvidia.com/assets/embedded/secure/jetson/docs/Ruggedized_Systems_with_Jetson_SoDIMM_Modules_TB-10728-001-v1.1.pdf
+[^9]: https://www.molex.com/en-us/products/part-detail/2034560003
