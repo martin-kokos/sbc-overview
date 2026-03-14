@@ -17,6 +17,7 @@ For many comprehensive reviews and benchmark see review by Jeff Geerling: https:
 | Radxa | [ROCK 5C Lite](https://radxa.com/products/rock5/5c/) | RK3582 | 2/8/16 GB | SDcard/eMMC socket | | | 85/___/___ EUR |
 | Raspbery Pi | [5](https://www.raspberrypi.com/products/raspberry-pi-5/) | BCM2712 | 4/8 GB | microSD | | [by Jeff Geerling](https://github.com/geerlingguy/sbc-reviews/issues/21) | ___/80 EUR |
 | Radxa X4 | [X4](https://radxa.com/products/x/x4/) | N100 | 4/8/12/16 GB | m.2(42mm) | | [by Jeff Geerling](https://www.jeffgeerling.com/blog/2024/radxa-x4-sbc-unites-intel-n100-and-raspberry-pi-rp2040) | 70/93/114/130 EUR |
+| AAEON | [UP 7000](https://www.aaeon.com/en/product/detail/up-7000-boards) | Alder_Lake-N | 4/8/12/16 GB | m.2(42mm) | | | 330 EUR |
 
 
 # Processors
@@ -67,16 +68,19 @@ For more powerful computer systems look at the Intel N100, N150, N200 line
 At this moment, I do not recommend these boards for commercial use, due to their poor bringup software (Installation wizard), poor documentation, poor support on forums and poor supplly chain security.
 A good overview is on [Wikipedia](https://en.wikipedia.org/wiki/Nvidia_Jetson#Performance)
 
+## AI Performance
+Do not consider performance based on Nvidia materials even as approximate as they choose performance units arbitrarily - INT8 TOPS, INT8 sparse TOPS, TFLOPS  E.g. [Orin](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/) and [Xavier](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-series/) are not comparable using these tables.
+
 Generations:
-TK1, TX1, Nano = long obsolete [Maxwell](https://en.wikipedia.org/wiki/Maxwell_(microarchitecture)) (2014, 2015)
-TX2 = obsolete [Pascal](https://en.wikipedia.org/wiki/Pascal_(microarchitecture)) (2016)
-Xavier = [Volta microachitecture](https://en.wikipedia.org/wiki/Volta_(microarchitecture)) (2017)
-Orin = [Ampere microachitecture](https://en.wikipedia.org/wiki/Ampere_(microarchitecture)) (2020)
-Thor = [Blackwell microachitecture](https://en.wikipedia.org/wiki/Blackwell_(microarchitecture)) (2024)
+ - TK1, TX1, Nano = long obsolete [Maxwell](https://en.wikipedia.org/wiki/Maxwell_(microarchitecture)) (2014, 2015)
+ - TX2 = obsolete [Pascal](https://en.wikipedia.org/wiki/Pascal_(microarchitecture)) (2016)
+ - Xavier = [Volta microachitecture](https://en.wikipedia.org/wiki/Volta_(microarchitecture)) (2017)
+ - Orin = [Ampere microachitecture](https://en.wikipedia.org/wiki/Ampere_(microarchitecture)) (2020)
+ - Thor = [Blackwell microachitecture](https://en.wikipedia.org/wiki/Blackwell_(microarchitecture)) (2024)
 
 Form factors:
-Nano, NX = SoDIMM modules[^8] usable with the Dev-Kit board
-AGX = SoM with 699-pin Moles connector[^9]
+ - Nano, NX = SoDIMM modules[^8] usable with the Dev-Kit board
+ - AGX = System-on-Module with 699-pin Molex connector[^9]
 
 ## Nano
 The starter board everyone usually knows is the _Jetson Nano_ (now obsolete), and its newer variants _Orin Nano_ and _Orin Nano Super_. ~15W TDP
