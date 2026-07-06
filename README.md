@@ -16,7 +16,8 @@ For many comprehensive reviews and benchmark see review by Jeff Geerling: https:
 | Radxa | [ROCK 5C](https://radxa.com/products/rock5/5c/) | RK3588S2 | 2/8/16 GB | SDcard/eMMC socket | NPU | [by Jeff Geerling](https://github.com/geerlingguy/sbc-reviews/issues/41) | 89/102/136 EUR |
 | Radxa | [ROCK 5C Lite](https://radxa.com/products/rock5/5c/) | RK3582 | 2/8/16 GB | SDcard/eMMC socket | | | 85/___/___ EUR |
 | Raspbery Pi | [5](https://www.raspberrypi.com/products/raspberry-pi-5/) | BCM2712 | 4/8 GB | microSD | | [by Jeff Geerling](https://github.com/geerlingguy/sbc-reviews/issues/21) | ___/80 EUR |
-| Radxa X4 | [X4](https://radxa.com/products/x/x4/) | N100 | 4/8/12/16 GB | m.2(42mm) | | [by Jeff Geerling](https://www.jeffgeerling.com/blog/2024/radxa-x4-sbc-unites-intel-n100-and-raspberry-pi-rp2040) | 70/93/114/130 EUR |
+| Radxa | [X4](https://radxa.com/products/x/x4/) | N100 | 4/8/12/16 GB | m.2(42mm) | | [by Jeff Geerling](https://www.jeffgeerling.com/blog/2024/radxa-x4-sbc-unites-intel-n100-and-raspberry-pi-rp2040) | 70/93/114/130 EUR |
+| Radxa | [Cubie A7S](https://radxa.com/products/cubie/a7s/) | A733 | 4/6/8 (supports 16 GB) | microSD/unpopulated eMMC | | | 86/105/145 EUR |
 | AAEON | [UP 7000](https://www.aaeon.com/en/product/detail/up-7000-boards) | Alder_Lake-N | 4/8/12/16 GB | m.2(42mm) | | | 330 EUR |
 
 
@@ -31,6 +32,7 @@ For many comprehensive reviews and benchmark see review by Jeff Geerling: https:
 | Broadcom [BCM2710A1](https://datasheets.raspberrypi.com/rpizero2/raspberry-pi-zero-2-w-product-brief.pdf) | 4x A53 | LPDDR2 | | VideoCore IV |  |
 | Broadcom [BCM2712](https://www.notebookcheck.net/Broadcom-BCM2712-Processor-Benchmarks-and-Specs.873280.0.html) | 4x A76 | LPDDR4X | | VideoCore V3D VII | | 
 | [Allwinner](https://linux-sunxi.org/Allwinner_SoC_Family) [H618](https://linux-sunxi.org/H618) | 4x A53 | DDR3/4 LPDDR3/4 | | Mali-G31 MP2| |
+| Allwinner [A733](https://www.cnx-software.com/2024/12/06/allwinner-a733-octa-core-cortex-a76-a55-ai-soc-supports-up-to-16gb-ram-for-android-15-tablets-and-laptops/) | 2x A76 6x A55 | LPDDR5 | | PowerVR BXM-4-64 MC1 | 3TOPS@int8 NPU |
 | Allwinner [H6](https://linux-sunxi.org/H6) | 4x A53 | DDR2/3 LPDDR3/4 | | Mali-T720 MP2 | |
 | Allwinner [A64](https://www.cnx-software.com/2015/11/10/allwinner-a64-datasheet-and-user-manual-released/) | 4x A53 | DDR2/3 LPDDR2/3 | | Mali-400 MP2 | Outdated |
 | Intel [N100](https://www.intel.com/content/www/us/en/products/sku/231803/intel-processor-n100-6m-cache-up-to-3-40-ghz/specifications.html) | 4x Alder Lake-N | LPDDR4/5 | 3.4 GHz |  | x86-64bit |
