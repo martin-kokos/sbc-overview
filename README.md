@@ -19,6 +19,7 @@ For many comprehensive reviews and benchmark see review by Jeff Geerling: https:
 | Radxa | [X4](https://radxa.com/products/x/x4/) | N100 | 4/8/12/16 GB | m.2(42mm) | | [by Jeff Geerling](https://www.jeffgeerling.com/blog/2024/radxa-x4-sbc-unites-intel-n100-and-raspberry-pi-rp2040) | 70/93/114/130 EUR |
 | Radxa | [Cubie A7S](https://radxa.com/products/cubie/a7s/) | A733 | 4/6/8 (supports 16 GB) | microSD/unpopulated eMMC | | | 86/105/145 EUR |
 | AAEON | [UP 7000](https://www.aaeon.com/en/product/detail/up-7000-boards) | Alder_Lake-N | 4/8/12/16 GB | m.2(42mm) | | | 330 EUR |
+| Orange Pi | [Zero 3W](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-Zero-3W.html) | A733 | 4/6 GB | microSD | | | 63/73 Eur |
 
 
 # Processors
