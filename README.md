@@ -20,7 +20,10 @@ For many comprehensive reviews and benchmark see review by Jeff Geerling: https:
 | Radxa | [Cubie A7S](https://radxa.com/products/cubie/a7s/) | A733 | 4/6/8 (supports 16 GB) | microSD/unpopulated eMMC | | | 86/105/145 EUR |
 | AAEON | [UP 7000](https://www.aaeon.com/en/product/detail/up-7000-boards) | Alder_Lake-N | 4/8/12/16 GB | m.2(42mm) | | | 330 EUR |
 | Orange Pi | [Zero 3W](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-Zero-3W.html) | A733 | 4/6 GB | microSD | | | 63/73 EUR |
-| M5 Stack | [LLM-8850 Kit](https://docs.m5stack.com/en/ai_hardware/LLM-8850_Kit) | AX8850 | 4/6 GB | -- (4MB flash) | | | 330/NA EUR |
+| M5 Stack | [LLM-8850 Kit](https://docs.m5stack.com/en/ai_hardware/LLM-8850_Kit) | AX8850 | 4/8 GB | (4MB flash) | | | 330/NA EUR |
+| Radxa | [AICore AX-M1](https://radxa.com/products/aicore/ax-m1/) | AX8850 | 4 GB | | | | 135 EUR |
+
+ 
 
 # Processors
 
@@ -59,6 +62,7 @@ For many comprehensive reviews and benchmark see review by Jeff Geerling: https:
 microSD = has a slot for microSD card, needs to be bought extra
 eMMC = has on-board soldered eMMC (optionally)
 eMMC socket = has a socket for external eMMC board, needs to be bought extra
+
 
 Some boards have eMMC storage directly on-board. These boards look more expensive but you don't need to buy the microSD card.
 Socketted eMMC is about 64GB for 20 EUR and 256 for 45 EUR
