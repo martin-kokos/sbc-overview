@@ -19,8 +19,8 @@ For many comprehensive reviews and benchmark see review by Jeff Geerling: https:
 | Radxa | [X4](https://radxa.com/products/x/x4/) | N100 | 4/8/12/16 GB | m.2(42mm) | | [by Jeff Geerling](https://www.jeffgeerling.com/blog/2024/radxa-x4-sbc-unites-intel-n100-and-raspberry-pi-rp2040) | 70/93/114/130 EUR |
 | Radxa | [Cubie A7S](https://radxa.com/products/cubie/a7s/) | A733 | 4/6/8 (supports 16 GB) | microSD/unpopulated eMMC | | | 86/105/145 EUR |
 | AAEON | [UP 7000](https://www.aaeon.com/en/product/detail/up-7000-boards) | Alder_Lake-N | 4/8/12/16 GB | m.2(42mm) | | | 330 EUR |
-| Orange Pi | [Zero 3W](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-Zero-3W.html) | A733 | 4/6 GB | microSD | | | 63/73 Eur |
-
+| Orange Pi | [Zero 3W](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-Zero-3W.html) | A733 | 4/6 GB | microSD | | | 63/73 EUR |
+| M5 Stack | [LLM-8850 Kit](https://docs.m5stack.com/en/ai_hardware/LLM-8850_Kit) | AX8850 | 4/6 GB | -- (4MB flash) | | | 330/NA EUR |
 
 # Processors
 
@@ -39,6 +39,7 @@ For many comprehensive reviews and benchmark see review by Jeff Geerling: https:
 | Intel [N100](https://www.intel.com/content/www/us/en/products/sku/231803/intel-processor-n100-6m-cache-up-to-3-40-ghz/specifications.html) | 4x Alder Lake-N | LPDDR4/5 | 3.4 GHz |  | x86-64bit |
 | NXP [i.MX 8M](https://www.nxp.com/products/i.MX8M) | 4x A53, 1x M4F| DDR3/4 LPDDR4 | | Vivante GC7000-Lite | |
 | Amlogic [S905X3](https://www.cnx-software.com/2019/04/12/amlogic-s905x3-specifications-block-diagram/) | 4x A55 | DDR3/4 LPDDR3/4 | | Mali G31 MP2  | |
+| Axera [AX8850]([https://www.cnx-software.com/2019/04/12/amlogic-s905x3-specifications-block-diagram/](https://www.axera-tech.com/en/product/2896.html)) | 8x A55 | LPDDR4x | 1.7GHz | Yes, unknown | 24TOPs@int8 NPU |
 
 
 # Cores
