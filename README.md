@@ -116,6 +116,9 @@ To compare modules, view this [overview](https://www.nvidia.com/en-us/autonomous
 ## Thor
 Upcoming (2025) series. Marketing says 2000 TFLOPS \* 4bit \*\* sparse, so divide it by a factor of two and then another factor of two, 75-130W TDP.[^7]
 
+# Intersting outlook
+- [Rockchip RK182X](https://rockchip.fr/RK182X%20datasheet%20V1.1.pdf) - a successor to the RK3588, with more memory channels and updated Opcode set with 20 TOPS int4
+
 # Hire me
 For consultations, schedule a call via _Calendly_ link in my profile.
 
